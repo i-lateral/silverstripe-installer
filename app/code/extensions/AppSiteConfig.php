@@ -5,7 +5,7 @@
  * @author morven
  */
 class AppSiteConfig extends DataExtension {
-    public static $db = array();
+    private static $db = array();
 
     function updateCMSFields(FieldList $fields) {}
 }
