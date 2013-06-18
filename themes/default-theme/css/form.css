@@ -1,0 +1,126 @@
+/* FORM
+---------------------------------------- */
+.typography form {
+    width: 50%;
+}
+.typography form.columnar {
+    width: auto;
+}
+
+/* FIELDSETS
+---------------------------------------- */
+fieldset {
+	border: 0;
+    padding: 0;
+}
+
+/* ACTION BUTTONS
+---------------------------------------- */
+.Actions {
+    text-align: right;
+}
+
+input.action:hover,
+input.action:focus {
+        cursor: pointer;
+}
+
+/* FIELD FORMATING
+---------------------------------------- */
+form ul {
+	list-style: none;
+}
+
+.field {
+    clear: both;
+    padding: 5px 0;
+}	
+	
+/* INPUT BOXES
+---------------------------------------- */
+input.text, textarea {
+	width: 99%;
+}
+
+form.columnar input.text,
+form.columnar textarea {
+	width: 69.5%;
+}
+
+textarea {
+    height: auto;
+}
+
+input:focus span, textarea:focus span {
+	border: 3px solid #000;
+}
+
+form .date input.month,
+form .date input.day,
+form .date input.year {
+	width: auto;
+}
+
+form .datetime .clear {
+	clear: both;
+}
+
+form .datetime .date,
+form .datetime .time {
+	float: left;
+	clear: none;
+	width: auto;
+}
+	form .datetime .middleColumn .middleColumn {
+		width: auto;
+	}
+	form .datetime .date input,
+	form .datetime .time input {
+		width: auto;
+	}
+
+/* SELECT DROPDOWN
+---------------------------------------- */
+select {
+	width: auto;
+}
+
+.typography select {
+	padding: 2px;
+    font-size: 0.9em;
+}
+form.columnar select {
+    width: 70.5%;
+}
+
+/* LABELS
+---------------------------------------- */
+.typography label {
+ 	display: block;
+    font-size: 0.9em;
+	margin: 5px 0;
+	color: #777;
+}
+
+label.right {
+	display:inline;
+}
+
+/* CHECKBOXES
+---------------------------------------- */
+ul.optionset {
+	margin: 0;
+	overflow: hidden;
+}
+	ul.optionset li {
+		margin: 6px 0;
+		clear: both;
+	}
+		ul.optionset li input {
+			float: left;
+			margin: 0 6px;
+		}
+		ul.optionset li label {
+			margin: 0;
+		}
+
