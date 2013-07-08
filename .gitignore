@@ -1,5 +1,18 @@
 assets/*
 _ss_environment.php
+cms
+framework
+carousel
+gallery
+compactnavigator
+custommenus
+sstweaks
+googlesitemaps
+userforms
+blog
+buildtools/
+docsviewer/
+testsession/
 tools/phing-metadata
 silverstripe-cache
 .buildpath
@@ -8,3 +21,6 @@ silverstripe-cache
 .idea
 .DS_Store
 vendor/
+composer.lock
+/.htaccess
+/web.config

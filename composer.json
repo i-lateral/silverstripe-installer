@@ -3,12 +3,29 @@
 	"description": "Customised SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
-		"silverstripe-themes/simple": "*"
+        "silverstripe/cms": "3.0.*@stable",
+        "silverstripe/framework": "3.0.*@stable",
+        "i-lateral/silverstripe-carousel": "dev-SS-3.0.x",
+        "i-lateral/silverstripe-gallery": "dev-SS-3.0.x",
+        "i-lateral/silverstripe-compactnavigator": "dev-SS-3.0.x",
+        "i-lateral/silverstripe-custommenus": "dev-SS-3.0.x",
+        "i-lateral/silverstripe-sstweaks": "dev-SS-3.0.x",
+        "silverstripe/googlesitemaps": "1.0.*@dev",
+        "silverstripe/userforms": "1.0.*@dev",
+        "silverstripe/blog": "0.6.*@dev"
 	},
 	"config": {
 		"process-timeout": 600	
+	},
+    "require-dev": {
+        "silverstripe/docsviewer": "*",
+        "silverstripe/behat-extension": "*",
+        "silverstripe/buildtools": "*",
+        "phpunit/phpunit": "3.7.*"
+    },
+	"scripts": {
+		"post-install-cmd": "php ./framework/cli-script.php dev/build",
+		"post-update-cmd": "php ./framework/cli-script.php dev/build"
 	},
 	"minimum-stability": "dev"
 }
