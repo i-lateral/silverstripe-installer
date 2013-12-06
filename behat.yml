@@ -1,4 +1,9 @@
 default:
+  filters:
+    tags: "~@todo"
+  formatter:
+    name: pretty
+
   extensions:
 
     SilverStripe\BehatExtension\MinkExtension:
