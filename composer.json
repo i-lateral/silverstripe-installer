@@ -1,14 +1,38 @@
 {
 	"name": "i-lateral/silverstripe-installer",
 	"description": "Customised SilverStripe Framework Installer",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/i-lateral/silverstripe-simple.git"
+        }
+    ],
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
-		"silverstripe-themes/simple": "*"
+        "silverstripe/cms": "3.1.*@stable",
+        "silverstripe/framework": "3.1.*@stable",
+        "silverstripe-themes/simple": "*",
+        "i-lateral/silverstripe-carousel": "dev-master",
+        "i-lateral/silverstripe-gallery": "dev-master",
+        "i-lateral/silverstripe-compactnavigator": "dev-master",
+        "i-lateral/silverstripe-custommenus": "dev-master",
+        "i-lateral/silverstripe-sstweaks": "dev-master",
+        "silverstripe/googlesitemaps": "*",
+        "silverstripe/userforms": "*",
+        "silverstripe/blog": "*"
 	},
 	"config": {
 		"process-timeout": 600	
+	},
+    "require-dev": {
+        "silverstripe/docsviewer": "*",
+        "silverstripe/behat-extension": "*",
+        "silverstripe/buildtools": "*",
+        "phpunit/phpunit": "3.7.*"
+    },
+	"scripts": {
+		"post-install-cmd": "php ./framework/cli-script.php dev/build",
+		"post-update-cmd": "php ./framework/cli-script.php dev/build"
 	},
 	"minimum-stability": "dev"
 }
