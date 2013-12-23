@@ -2,7 +2,7 @@ assets/*
 _ss_environment.php
 cms/
 framework/
-themes/simple
+themes/simple/
 carousel/
 gallery/
 compactnavigator/
@@ -11,6 +11,7 @@ sstweaks/
 googlesitemaps/
 userforms/
 blog/
+scaleduploads/
 buildtools/
 docsviewer/
 testsession/
