@@ -7,3 +7,6 @@ After: 'framework/*','cms/*'
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'default-theme'
+SiteConfig:
+  extensions:
+    - AppSiteConfig
