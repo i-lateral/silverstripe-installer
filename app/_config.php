@@ -1,12 +1,10 @@
 <?php
 
-$db_prefix = (defined('DB_PREFIX')) ? DB_PREFIX . '_' : '';
-
 global $project;
 $project = 'app';
 
 global $database;
-$database = $db_prefix . '';
+$database = '';
 
 require_once('conf/ConfigureFromEnv.php');
 
