@@ -37,7 +37,9 @@
     },
     "scripts": {
         "post-install-cmd": "php ./framework/cli-script.php dev/build",
-        "post-update-cmd": "php ./framework/cli-script.php dev/build"
+        "post-install-cmd": "chmod -R 755 *",
+        "post-update-cmd": "php ./framework/cli-script.php dev/build",
+        "post-update-cmd": "chmod -R 755 *"
     },
     "minimum-stability": "dev"
 }
