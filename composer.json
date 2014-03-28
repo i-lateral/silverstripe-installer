@@ -37,12 +37,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "chmod -R 755 *",
-            "php ./framework/cli-script.php dev/build"
+            "php ./framework/cli-script.php dev/build flush=all"
         ],
         "post-update-cmd": [
-            "chmod -R 755 *",
-            "php ./framework/cli-script.php dev/build"
+            "php ./framework/cli-script.php dev/build flush=all"
         ]
     },
     "minimum-stability": "dev"
