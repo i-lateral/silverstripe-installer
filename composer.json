@@ -5,35 +5,28 @@
         {
             "type": "vcs",
             "url": "https://github.com/i-lateral/silverstripe-simple.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/i-lateral/silverstripe-scaled-uploads"
         }
     ],
     "require": {
         "php": ">=5.3.2",
-        "silverstripe/cms": "3.1.*@stable",
         "silverstripe/framework": "3.1.*@stable",
+        "silverstripe/cms": "3.1.*@stable",
         "silverstripe-themes/simple": "*",
+        "silverstripe/googlesitemaps": "*",
         "i-lateral/silverstripe-sstweaks": "dev-master",
-        "axllent/silverstripe-scaled-uploads": "*",
-        "i-lateral/silverstripe-carousel": "dev-master",
-        "i-lateral/silverstripe-gallery": "dev-master",
         "i-lateral/silverstripe-compactnavigator": "dev-master",
         "i-lateral/silverstripe-custommenus": "dev-master",
-        "silverstripe/googlesitemaps": "*",
-        "silverstripe/userforms": "*",
-        "silverstripe/blog": "*"
-    },
-    "config": {
-        "process-timeout": 600	
+        "axllent/silverstripe-scaled-uploads": "*",
+        "silverstripe/userforms": "*"
     },
     "require-dev": {
         "silverstripe/docsviewer": "*",
         "silverstripe/behat-extension": "*",
         "silverstripe/buildtools": "*",
         "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "process-timeout": 600
     },
     "scripts": {
         "post-install-cmd": [
