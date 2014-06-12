@@ -18,6 +18,7 @@ class ContactPage extends UserDefinedForm {
     private static $db = array(
         "PhoneNumber"   => "Varchar(15)",
         "Email"         => "Varchar(50)",
+        "Address"       => "HTMLText",
         "MapEmbed"      => "HTMLText"
     );
     
@@ -30,13 +31,14 @@ class ContactPage extends UserDefinedForm {
             FieldList::create(
                 TextField::create('PhoneNumber','Phone Number'),
                 TextField::create('Email','Email'),
+                TextareaField::create('Address','Address'),
                 TextareaField::create('MapEmbed','Map Embed Code')
             )
         );
         
         $fields->addFieldToTab("Root.Main",$contact_fields);
         
-        return $fields; 
+        return $fields;
     }
     
 }
