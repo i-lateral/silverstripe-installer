@@ -21,6 +21,7 @@
 /middleman
 /sessionmessenger
 /silverstripe-scaled-uploads
+/scaleduploads
 /sortablefile
 /users
 /widgets
@@ -43,7 +44,7 @@
 .settings
 .idea
 .DS_Store
-composer.lock
+combinedfiles
 _ss_environment.php
 /.htaccess
 /web.config
