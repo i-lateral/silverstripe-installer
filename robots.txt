@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin
+Disallow: /?flush
+Disallow: /themes
+Allow: /
+
+User-Agent: Googlebot-Image
+Disallow: /admin
+Disallow: /?flush
+Disallow: /themes
+Allow: /
