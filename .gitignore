@@ -15,6 +15,8 @@
 /casestudy
 /carousel
 /comments
+/discussions
+/file-listing
 /forum
 /gallery
 /gridfield-bulk-editing-tools
@@ -22,8 +24,10 @@
 /middleman
 /sessionmessenger
 /silverstripe-scaled-uploads
+/sitemap
 /scaleduploads
 /sortablefile
+/subsites
 /users
 /widgets
 
