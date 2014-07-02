@@ -17,10 +17,12 @@
 /comments
 /discussions
 /file-listing
+/filterable
 /forum
 /gallery
 /gridfield-bulk-editing-tools
 /gridfieldextensions
+/homepagefordomain
 /middleman
 /sessionmessenger
 /silverstripe-scaled-uploads
@@ -28,6 +30,7 @@
 /scaleduploads
 /sortablefile
 /subsites
+/twitter
 /users
 /widgets
 
