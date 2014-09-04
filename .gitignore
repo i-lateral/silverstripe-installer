@@ -8,6 +8,7 @@
 /googlesitemaps
 /userforms
 /themes/simple/
+/themes/kube/
 
 # Additional modules
 /abc-silverstripe-textcap
@@ -15,6 +16,8 @@
 /blog
 /casestudy
 /carousel
+/catalogue
+/checkout
 /comments
 /discussions
 /file-listing
@@ -25,6 +28,7 @@
 /gridfieldextensions
 /homepagefordomain
 /middleman
+/orders
 /sessionmessenger
 /silverstripe-scaled-uploads
 /sitemap
@@ -34,10 +38,6 @@
 /twitter
 /users
 /widgets
-
-# Commerce Modules
-/commerce
-/commerce-bulkorders
 
 # System and build tools
 /vendor
