@@ -11,13 +11,13 @@
         "php": ">=5.3.2",
         "silverstripe/framework": "3.1.*@stable",
         "silverstripe/cms": "3.1.*@stable",
-        "silverstripe-themes/simple": "*",
         "silverstripe/googlesitemaps": "*",
         "i-lateral/silverstripe-sstweaks": "dev-master",
         "i-lateral/silverstripe-compactnavigator": "dev-master",
         "i-lateral/silverstripe-custommenus": "dev-master",
         "axllent/silverstripe-scaled-uploads": "*",
-        "silverstripe/userforms": "*"
+        "silverstripe/userforms": "*",
+        "i-lateral/silverstripe-themes-kube": "*"
     },
     "require-dev": {
         "silverstripe/docsviewer": "*",
