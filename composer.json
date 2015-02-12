@@ -12,17 +12,16 @@
         "silverstripe/framework": "3.1.*@stable",
         "silverstripe/cms": "3.1.*@stable",
         "silverstripe/googlesitemaps": "*",
+        "silverstripe/userforms": "*",
         "i-lateral/silverstripe-sstweaks": "dev-master",
         "i-lateral/silverstripe-compactnavigator": "dev-master",
         "i-lateral/silverstripe-custommenus": "dev-master",
         "axllent/silverstripe-scaled-uploads": "*",
-        "silverstripe/userforms": "*",
+        "kinglozzer/metatitle": "dev-master",
         "i-lateral/silverstripe-themes-kube": "*"
     },
     "require-dev": {
-        "silverstripe/docsviewer": "*",
         "silverstripe/behat-extension": "*",
-        "silverstripe/buildtools": "*",
         "phpunit/phpunit": "3.7.*"
     },
     "config": {
