@@ -18,7 +18,8 @@
         "i-lateral/silverstripe-custommenus": "dev-master",
         "axllent/silverstripe-scaled-uploads": "*",
         "kinglozzer/metatitle": "dev-master",
-        "i-lateral/silverstripe-themes-kube": "*"
+        "i-lateral/silverstripe-themes-kube": "*",
+        "i-lateral/silverstripe-socialnav": "*"
     },
     "require-dev": {
         "silverstripe/behat-extension": "*",
