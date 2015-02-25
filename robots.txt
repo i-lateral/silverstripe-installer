@@ -2,10 +2,12 @@ User-agent: *
 Disallow: /admin
 Disallow: /?flush
 Disallow: /themes
+Disallow: /Security
 Allow: /
 
 User-Agent: Googlebot-Image
 Disallow: /admin
 Disallow: /?flush
 Disallow: /themes
+Disallow: /Security
 Allow: /
