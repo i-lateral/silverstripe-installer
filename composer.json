@@ -19,7 +19,7 @@
         "i-lateral/silverstripe-themes-kube": "*",
         "i-lateral/silverstripe-socialnav": "*",
         "axllent/silverstripe-scaled-uploads": "*",
-        "kinglozzer/metatitle": "1.0.*",
+        "kinglozzer/metatitle": "1.0.*"
     },
     "require-dev": {
         "silverstripe/behat-extension": "*",
