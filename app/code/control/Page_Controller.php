@@ -54,26 +54,4 @@ class Page_Controller extends ContentController {
         );
     }
 
-    /**
-     * Overwrite default MetaTags so that if keywords and description are not
-     * present, but there is a homepage with them, return the metatags from the
-     * homepage
-     *
-     * @param type $includeTitle
-     * @return string
-     */
-    public function MetaTags($includeTitle = true) {
-        $tags = parent::MetaTags($includeTitle);
-
-        if($homePage = Page::get()->filter('ClassName','HomePage')->first()) {
-            if(!preg_match('/name="keywords"/i', $tags) && $homePage->MetaKeywords)
-                $tags .= "<meta name=\"keywords\" content=\"" . Convert::raw2att($homePage->MetaKeywords) . "\" />\n";
-
-            if(!preg_match('/name="description"/i', $tags) && $homePage->MetaDescription)
-                $tags .= "<meta name=\"description\" content=\"" . Convert::raw2att($homePage->MetaDescription) . "\" />\n";
-        }
-
-        return $tags;
-    }
-
 }
