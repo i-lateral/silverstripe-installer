@@ -7,6 +7,7 @@
 		"silverstripe/framework": "self.version",
         "silverstripe/googlesitemaps": "*",
         "silverstripe/userforms": "*",
+        "silverstripe-australia/sitemap": "1.0.0",
         "i-lateral/silverstripe-sstweaks": "0.1.*",
         "i-lateral/silverstripe-compactnavigator": "1.1.*",
         "i-lateral/silverstripe-custommenus": "1.0.*",
