@@ -3,8 +3,8 @@
     "description": "Customised SilverStripe Framework Installer",
     "require": {
         "php": ">=5.3.2",
-        "silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
+		"silverstripe/framework": "3.1.*@stable",
+        "silverstripe/cms": "3.1.*@stable",
         "silverstripe/googlesitemaps": "*",
         "silverstripe/userforms": "*",
         "silverstripe-australia/sitemap": "1.0.0",
@@ -13,7 +13,7 @@
         "i-lateral/silverstripe-custommenus": "1.0.*",
         "i-lateral/silverstripe-themes-kube": "*",
         "i-lateral/silverstripe-socialnav": "*",
-        "axllent/silverstripe-scaled-uploads": "*",
+        "axllent/silverstripe-scaled-uploads": "v1.0@stable",
         "kinglozzer/metatitle": "1.0.*"
     },
     "require-dev": {
