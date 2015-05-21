@@ -1,0 +1,7 @@
+---
+Name: approutes
+After: framework/routes#rootroutes
+---
+Director:
+  rules:
+    '' : 'Home'

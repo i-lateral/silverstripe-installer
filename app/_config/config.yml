@@ -10,7 +10,4 @@ After:
 Email:
   admin_email: noreply@ilateral.co.uk
 SSViewer:
-  theme: 'simple'
-SiteConfig:
-  extensions:
-    - AppSiteConfig
+  theme: 'kube'
