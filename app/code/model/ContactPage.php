@@ -40,5 +40,27 @@ class ContactPage extends UserDefinedForm {
         
         return $fields;
     }
+
+	/**
+	 * Get contact form
+	 */
+	public function getContactForm(){
+		$className = Controller::curr()->ClassName;
+		
+		if($this->ID){
+			if($className == 'ContactPage'){
+				return Controller::curr()->Form();
+			}
+			else{
+				$cpc = new ContactPage_Controller($this);
+				
+				$cpc->init();
+				
+				return $cpc->Form();
+			}
+		}
+		
+		return false;
+	}
     
 }
