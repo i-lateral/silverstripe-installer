@@ -19,8 +19,7 @@ class ContactPage extends UserDefinedForm {
         "PhoneNumber"   => "Varchar(15)",
         "Email"         => "Varchar(50)",
         "Address"       => "HTMLText",
-        "MapEmbed"      => "HTMLText",
-        "BlockJquery"	=> "Boolean"
+        "MapEmbed"      => "HTMLText"
     );
     
     public function getCMSFields() {
@@ -41,14 +40,6 @@ class ContactPage extends UserDefinedForm {
         
         return $fields;
     }
-     
-    public function getSettingsFields() {
-		$fields = parent::getSettingsFields();
-		
-		$fields->addFieldToTab("Root.Settings",CheckboxField::create('BlockJquery','Block additional jquery from loading?'));
-		
-		return $fields;
-	}
 
 	/**
 	 * Get contact form
