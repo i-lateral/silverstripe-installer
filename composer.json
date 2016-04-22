@@ -1,6 +1,9 @@
 {
     "name": "i-lateral/silverstripe-installer",
     "description": "Customised SilverStripe Framework Installer",
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:Makreig/silverstripe-bootstrap-theme.git" }
+    ],
     "require": {
         "php": ">=5.3.3",
 		"silverstripe/framework": "3.3.*@stable",
@@ -14,6 +17,7 @@
         "i-lateral/silverstripe-compactnavigator": "1.1.*",
         "i-lateral/silverstripe-custommenus": "1.0.*",
         "i-lateral/silverstripe-themes-kube": "*",
+		"Makreig/silverstripe-bootstrap-theme": "*",
         "i-lateral/silverstripe-socialnav": "*",
         "axllent/silverstripe-scaled-uploads": "v1.0@stable",
         "kinglozzer/metatitle": "1.0.*"
