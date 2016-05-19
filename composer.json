@@ -19,6 +19,7 @@
         "i-lateral/silverstripe-themes-kube": "*",
 		"Makreig/silverstripe-bootstrap-theme": "*",
         "i-lateral/silverstripe-socialnav": "*",
+        "i-lateral/silverstripe-lesscompiler": "0.*",
         "axllent/silverstripe-scaled-uploads": "v1.0@stable",
         "kinglozzer/metatitle": "1.0.*"
     },
