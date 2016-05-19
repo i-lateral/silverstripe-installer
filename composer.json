@@ -6,8 +6,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-		"silverstripe/framework": "3.1.*@stable",
-		"Makreig/silverstripe-bootstrap-theme": "*",
+		"silverstripe/framework": "3.3.*@stable",
 		"Makreig/silverstripe-bootstrap-theme": "*",
         "i-lateral/silverstripe-lesscompiler": "0.*",
         "axllent/silverstripe-scaled-uploads": "v1.0@stable"
