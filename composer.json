@@ -12,7 +12,7 @@
 		"silverstripe/siteconfig": "3.3.*@stable",
         "silverstripe/userforms": "3.*@stable",
         "silverstripe/googlesitemaps": "*",
-        "silverstripe-australia/sitemap": "1.0.0",
+        "silverstripe-australia/sitemap": "1.1.0",
         "i-lateral/silverstripe-sstweaks": "0.1.*",
         "i-lateral/silverstripe-compactnavigator": "1.1.*",
         "i-lateral/silverstripe-custommenus": "1.0.*",
