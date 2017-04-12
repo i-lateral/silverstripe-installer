@@ -11,6 +11,7 @@
 # Themes
 /themes/simple
 /themes/kube
+/themes/bootstrap
 
 # Form field modules
 /abc-silverstripe-textcap
@@ -34,6 +35,7 @@
 /blog
 /blog-frontend
 /carousel
+/childhubpage
 /casestudy
 /comments
 /contacts
@@ -44,14 +46,21 @@
 /gallery
 /googlemaps
 /homepagefordomain
+/loadthemeassets
+/lesscompiler
+/liveseo
 /lumberjack
 /metatitle
 /middleman
+/reports
 /scaleduploads
 /searchable
+/segment-field
 /sessionmessenger
 /silverstripe-scaled-uploads
 /sitemap
+/siteconfig
+/socialnav
 /sortablefile
 /sortablegridfield
 /sqlite3
