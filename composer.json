@@ -2,25 +2,26 @@
     "name": "i-lateral/silverstripe-installer",
     "description": "Customised SilverStripe Framework Installer",
     "repositories": [
-        { "type": "vcs", "url": "git@github.com:Makreig/silverstripe-bootstrap-theme.git" }
+        { "type": "vcs", "url": "git@github.com:Makreig/silverstripe-bootstrap-theme.git" },
+        { "type": "vcs", "url": "git@bitbucket.org:ilateral/silverstripe-loadthemeassets.git" }
     ],
     "require": {
         "php": ">=5.3.3",
-		"silverstripe/framework": "3.3.*@stable",
-        "silverstripe/cms": "3.3.*@stable",
-		"silverstripe/reports": "3.3.*@stable",
-		"silverstripe/siteconfig": "3.3.*@stable",
+        "silverstripe/framework": "3.*@stable",
+        "silverstripe/cms": "3.*@stable",
+        "silverstripe/reports": "3.*@stable",
+        "silverstripe/siteconfig": "3.*@stable",
         "silverstripe/userforms": "3.*@stable",
         "silverstripe/googlesitemaps": "*",
-        "silverstripe-australia/sitemap": "1.1.0",
-        "i-lateral/silverstripe-sstweaks": "0.1.*",
+        "i-lateral/silverstripe-sstweaks": "0.3.*",
         "i-lateral/silverstripe-compactnavigator": "1.1.*",
-        "i-lateral/silverstripe-custommenus": "1.0.*",
-        "i-lateral/silverstripe-themes-kube": "*",
-		"Makreig/silverstripe-bootstrap-theme": "master",
+        "i-lateral/silverstripe-custommenus": "1.*",
+        "i-lateral/silverstripe-loadthemeassets": "dev-master",
+        "Makreig/silverstripe-bootstrap-theme": "master",
         "i-lateral/silverstripe-socialnav": "*",
         "i-lateral/silverstripe-lesscompiler": "0.*",
         "axllent/silverstripe-scaled-uploads": "v1.0@stable",
+        "micschk/silverstripe-liveseo": "2.*@stable",
         "kinglozzer/metatitle": "1.0.*"
     },
     "require-dev": {
@@ -29,11 +30,11 @@
     "config": {
         "process-timeout": 600
     },
-	"extra": {
-		"branch-alias": {
-			"3.x-dev": "3.3.x-dev"
-		}
-	},
-	"prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "3.x-dev": "3.3.x-dev"
+        }
+    },
+    "prefer-stable": true,
     "minimum-stability": "dev"
 }
