@@ -3,8 +3,10 @@
 global $project;
 $project = 'app';
 
-global $database;
-$database = '';
+if (!defined("SS_DATABASE_NAME")) {
+	global $database;
+	$database = '';
+}
 
 require_once('conf/ConfigureFromEnv.php');
 
