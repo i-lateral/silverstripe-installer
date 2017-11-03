@@ -23,7 +23,8 @@
         "axllent/silverstripe-scaled-uploads": "v1.0@stable",
         "micschk/silverstripe-liveseo": "2.*@stable",
         "kinglozzer/metatitle": "1.0.*",
-        "jonom/focuspoint": "^2.4"
+        "jonom/focuspoint": "^2.4",
+        "tractorcow/silverstripe-robots": "^3.0"
     },
     "require-dev": {
         "phpunit/PHPUnit": "~3.7@stable"

@@ -1,0 +1,7 @@
+---
+Name: myrobotsconfiguration
+After: '#robotsconfiguration'
+---
+Robots:
+  disallowed_urls:
+    - '/Security'
